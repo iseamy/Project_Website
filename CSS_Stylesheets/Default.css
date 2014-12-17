@@ -1,0 +1,119 @@
+﻿/*RGB COLOURS TO KEEP
+Teal - #019A9F*/
+
+Sample 1 body tag
+    body { background-color:#B0B8BD; }
+body { background-color:#f3f4f5; }
+
+/*Start Sample 1 Styles*/
+#Wrapper {width:1330px;}
+
+#header {}
+#header img.LOGO {position:absolute; width:250px; padding-left: 100px; padding-top: 25px; }
+#header img.LINE {margin-left:auto; margin-right:auto; width: 85%; height: 1px; display:block;}
+#header .LINKS {}
+#header .LINKS p {padding-left: 830px; padding-top: 65px; word-spacing:60px; font-weight:600; font-family:sans-serif;}
+#header .LINKS img {}
+
+#header .LINKS a {color:black; text-decoration:none;}
+#header .LINKS a:link {color:black;}      /* unvisited link */
+#header .LINKS a:hover {background-color:orange;}  /* mouse over link */
+#header .LINKS a:active {color:blue;}  /* selected link */
+
+
+/*#main {height:530px; width: 80%; display: block; margin: 0 auto;}
+#main h1 {height:50px; font-family:sans-serif; color:white; font-size:500%; padding-left:102px; padding-top:110px;}
+#main h2 {color:#E2E2E2; font-family:sans-serif; font-size:150%; font-weight:400; padding-left:102px; font-style:italic;}
+
+#main .mainLeft {height:520px; display: block; float: left;}
+#main .mainRight {height: 520px; float: left; display: block; padding-left:80px;}
+#main .mainRight img {width:450px; padding-top:80px;}
+
+#mainContent {background-color:#F3F4F5; width: 100%; height: 600px; display: block; margin: auto;}
+#mainContent h1 {font-family:sans-serif; text-align:center;}
+#mainContent h3 {font-family:sans-serif; text-align:center;}
+
+/*End Sample 1 Styles*/
+
+#Wrapper2 {width: 1330px;}
+/*#content2 {margin: 0 auto; width: 80%; display: block;}*/
+
+
+/*#leftNav {margin-top:50px; float:left; display:block; width: 220px; height: 500px;}
+#leftNav img {float: right; width: 1px; height: 500px; padding-top: 70px;}
+#leftNav .leftNav_Content h2 {margin-left:20px; font-family:Roboto; font-style:normal;}
+#leftNav ul {list-style:square; font-family: Roboto;font-style:normal; font-size:small; color:#656a6f;}
+
+#main2 {width:600px; padding-left:10px; height:500px; float:left; display:block; margin-left: 5px; margin-right: 5px;}
+#main2 h1{font-family:Roboto; font-weight:800; font-size:45px; margin-top:60px; text-align:center;}
+#main2 h2{}
+#main2 h3{font-family:Aleo; font-style:italic; font-weight: 200; font-size: 20px; margin-left:50px;}
+#main2 p {font-family:Roboto; font-style:normal; font-size:small; color:#656a6f; margin-left:50px;}
+#main2 img {width: 400px; height: 250px; margin-left:50px; display:block; margin-top:40px;}
+
+#adverts {margin-top:50px; width:220px; height:500px; float:left; display:block; }
+#adverts img {float:left; width:1px; height:500px; padding-top:70px;}
+#adverts .advert_Content{margin-left:40px;}
+#adverts .advert_Content h2 {margin-left:20px; font-family:Roboto;}
+#adverts ul {list-style-type:square; font-family:Roboto;font-style: normal;font-size: small;color: #656a6f;}
+
+/*End Sample 2 Styles*/
+
+#Wrapper3 {width: 1330px;}
+/*#content3 {margin: 0 auto; width: 80%; display: block;}
+
+#header3 {}
+#header3 img.LOGO {position:absolute; width:250px; padding-left: 100px; padding-top: 25px; }
+#header3 img.LINE {margin-left:auto; margin-right:auto; width: 85%; height: 1px; display:block;}
+#header3 .LINKS3 {}
+#header3 .LINKS3 p {padding-left: 830px; padding-top: 65px; word-spacing:60px; font-weight:600; font-family:sans-serif;}
+#header3 .LINKS3 img {}
+
+#header3 .LINKS3 a {color:black; text-decoration:none;}
+#header3 .LINKS3 a:link {color:black;}      /* unvisited link */
+/*#header3 .LINKS3 a:hover {background-color:orange;}  /* mouse over link */
+/*#header3 .LINKS3 a:active {color:blue;}  /* selected link */
+
+#main3 {width:600px; height:500px; float:left; display:block; margin-left: 220px; }
+#main3 h1{font-family:Roboto; font-weight:800; font-size:45px; margin-top:60px; text-align:center; margin-left:-65px;}
+#main3 h2{}
+#main3 h3{font-family:Aleo; font-style:italic; font-weight: 200; font-size: 20px; margin-left:50px;}
+#main3 p {font-family:Roboto; font-style:normal; font-size:14px; color:#656a6f; margin-left:50px;}
+#main3 img {width: 400px; height: 250px; margin-left:50px; display:block; margin-top:40px;}
+
+/*#adverts3 {margin-top:50px; width:220px; height:500px; float:left; display:block; }
+#adverts3 img {float:left; width:1px; height:500px; padding-top:10px;}
+#adverts3 .advert_Content{margin-left:40px;}
+#adverts3 .advert_Content h2 {margin-left:20px; font-family:Roboto;}
+#adverts3 ul {list-style-type:square; font-family:Roboto;font-style: normal;font-size: small;color: #656a6f;}*/
+
+/*Landing Page Styles*/
+#Wrapper_LandingPage {width:100%;}
+
+#Content_LandingPage {margin: 0 auto; width: 80%; display: block;}
+#Content_LandingPage h1{margin:0; color:#2D3438; font-family:Roboto; font-weight:800; font-size:45px; text-align:center;}
+#Content_LandingPage h2{color:#2d3438;}
+#Content_LandingPage h3{font-family:Aleo; font-style:italic; font-weight: 200; font-size: 20px; text-align:center;}
+#Content_LandingPage p {font-family:Roboto; font-style:normal; font-size:14px; color:#656a6f; text-align:center;}
+#Content_LandingPage img {width: 400px; height: 250px; display:block; margin:auto; /*margin-top:40px;*/}
+
+#submitForm {margin:auto; display:block; width:50%;}
+
+input#EmailAddress 
+{width:35%; margin:auto; display:block; margin-bottom:10px; text-align:center; border: 1px solid #ccc;
+-moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; -moz-box-shadow: 2px 2px 3px #666;
+-webkit-box-shadow: 2px 2px 3px #666; box-shadow: 2px 2px 3px #666; font-size: 14px; padding: 4px 7px; outline: 0; -webkit-appearance: none;
+}
+
+input#Submit_EmailAddress 
+{margin:auto; width:6%; display: block; font-family:Roboto; border: 1px solid #ccc; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+border-radius: 10px; -moz-box-shadow: 2px 2px 3px #666; -webkit-box-shadow: 2px 2px 3px #666; box-shadow: 2px 2px 3px #666;
+font-size: 14px; padding: 4px 7px; outline: 0; -webkit-appearance: none; background-color:white; color:#656a6f;
+}
+
+span#ErrorLabel {font-family:Roboto; color:red; text-align: center; margin: auto; display: block; width: 40%;}
+
+#Social_Media {width: 9%; margin:0 auto; height:40px; padding-top:60px;}
+#Social_Media img.FB {width:40px; height:40px; float:left; margin:0; display:inline-block; padding-right:9px; }
+#Social_Media img.TWITTER {width:40px; height:40px; float:left; margin:0; display:inline-block; padding-left:5px;}
+/*End Landing Page Styles*/

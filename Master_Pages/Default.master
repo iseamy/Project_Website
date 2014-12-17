@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Default.master.cs" Inherits="Master_Pages_Default" %>
+
+<%@ Register Src="~/User_Controls/Header.ascx" TagPrefix="uc1" TagName="Header" %>
+<%@ Register Src="~/User_Controls/Footer.ascx" TagPrefix="uc2" TagName="Footer" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">  
+   <link rel="Stylesheet" href="../CSS_Stylesheets/Main.css" runat="server" type="text/css" />  <title></title>
+</head>
+    
+<body> 
+    <div id="bodyWrap">
+    <form id="form1" runat="server">
+        <uc1:Header runat="server" ID="Header" />
+    <div id="bodyContent1">
+        <asp:ContentPlaceHolder id="Main" runat="server" >
+     <script type="text/javascript">(function () { var ticker = document.createElement('script'); ticker.type = 'text/javascript'; ticker.async = true; ticker.src = '//twitcker.com/ticker/Just_Rate.js?speed=12'; (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ticker); })();</script>
+        </asp:ContentPlaceHolder>                
+    </div>
+        <uc2:Footer runat="server" ID="Footer" />
+    </form>    
+    </div>
+</body>
+
+</html>
